@@ -1,65 +1,65 @@
-# Git-it (Desktop App)
+# Git-it (Aplicación de escritorio)
 
 [![Build Status](https://travis-ci.org/jlord/git-it-electron.svg?branch=master)](https://travis-ci.org/jlord/git-it-electron) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ![screen shot 2016-04-17 at 10 37 55 pm](https://cloud.githubusercontent.com/assets/1305617/14594613/23873f64-04ed-11e6-9d3b-72f424dd0842.png)
-Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the [command line](https://en.wikipedia.org/wiki/Command-line_interface).
+Git-it es una aplicación de escritorio para (Mac, Windows y Linux) que te enseña a usar Git y GitHub en la [linea de comandos](https://en.wikipedia.org/wiki/Command-line_interface).
 
-**🚩The app includes translations in these languages: Spanish (ES), Spanish (CO), French, Portugese (BR), Ukrainian, Traditional Chinese, Japanese, and Korean. 🚩**
+**🚩La aplicación incluye traducciones en: Español (ES), Español (CO), Frances, Portugues (BR), Ucraniano, Chino tradicional, Japonese, y Coreano. 🚩**
 
-Previously it ran _in_ terminal (the command line application) with a guide online but now the guide _is_ the app and it runs on your desktop on its own :sparkles: **This will be the only maintained version going forward** :arrow_right:.
+Anteriormente se ejecutaba en la terminal con una guía en linea, pero ahora la guía es la aplicación y se ejecuta en tu escritorio por sí sola :sparkles: **Esta será la unica versión mantenida en el futuro** :arrow_right:.
 
 ---
-## Hello future Forkers, Branchers and Pull Requesters!
+## Hola futuros Forkers, Branchers y Pull Requesters!
 
-This application contains challenges for learning Git and GitHub—by using _real_ Git and GitHub, not emulators. You'll be learning the awesome (and not so scary) command line and GitHub which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
+Esta aplicación contiene desafios para el aprendizaje de Git y GitHub usando Git y GitHub reales, no usamos emuladores. Aprenderás la impresionante línea de comando, y no tan aterradora, así como también de GitHub, lo que significa que cuando termines todos los desafíos, tendrás repositorios reales en tu cuenta de GitHub y cuadrados verdes en tu [cuadro de contribución](https://github.com/blog/1360-introducing-contributions).
 
 ![contributions](https://raw.githubusercontent.com/jlord/git-it/master/ghcc.png)
 
-## What to Install
+## ¿Como instalar?
 
-You will need this app, Git-it as well as a text editor. You'll also of course need Git and the first challenge in Git-it helps you get that set up. But if you want to get a head start, go for it! You'll continue to use Git and your text editor throughout your bright social coding future.
+Necesitarás esta aplicación, Git-it, así como también un editor de texto. Por supuesto, también necesitarás Git y el primer desafío en Git-it: te ayuda a configurarlo. Pero si quieres tener una ventaja, ¡adelante!. Continuarás utilizando Git y su editor de texto a lo largo de tu brillante futuro de codificación social.
 
-As a part of the challenges you'll also create a (free) account on GitHub. If you've already got one, high-five!
+Como parte de los desafíos, también crearás una cuenta (gratuita) en GitHub. Si ya tienes uno, ¡choca esos cinco!
 
 #### Git
 
-We recommend installing [GitHub Desktop](http://desktop.github.com) (free) because it installs Git in the most consistent way across supported operating systems (Windows and Mac). We won't use the app itself in the challenges (but it is really useful once you get going in Git!), just the Git that it install for you.
+Recomendamos instalar [GitHub Desktop](http://desktop.github.com) (gratis) ya que instalará Git de la manera más consistente en todos los sistemas operativos compatibles (Windows y Mac). No usaremos la aplicación en los desafíos (¡pero es realmente útil una vez que inicies con Git!), Instala Git solo para ti.
 
-Note—If you're using Windows, you should use the **Git Shell** app as your terminal—it is installed with GitHub Desktop. In Mac and Linux you can use the app **Terminal**, which is already on your computer.
+Nota: si usas Windows, debes usar la aplicación **Git Shell o Git Bash** como su terminal,  este se instala con GitHub Desktop. En Mac y Linux puedes usar la aplicación **Terminal**, que ya está en tu computadora.
 
-#### Text Editor
+#### Editor de texto
 
-I'm quite partial (I'm on the team!) but [Atom](http://atom.io) is a great text editor (also free) and it is built on [Electron.js](http://electron.atom.io), just like Git-it. Visit the website and download the version for your operating system. [Sublime](https://www.sublimetext.com), [Microsoft VS Code](https://code.visualstudio.com) and [Adobe Brackets](http://brackets.io) are other options.
+Soy bastante parcial, pero [Atom](http://atom.io) es un excelente editor de texto (también gratuito) y está basado en [Electron.js](http://electron.atom.io), al igual que Git-it. Visite el sitio web y descarga una versión para tu sistema operativo. [Sublime Text](https://www.sublimetext.com), [Microsoft VS Code](https://code.visualstudio.com) y [Adobe Brackets](http://brackets.io) son otras opciones.
 
 #### Git-it
 
-You can view the [releases](http://github.com/jlord/git-it-electron/releases) section of this repository to find the download for your operating system. Click to download your version. Once it has downloaded to your default Downloads directory, unzip the folder and run the Git-it executable. The executables for Mac, Windows and Linux:
+Puedes ver la sección [releases](http://github.com/jlord/git-it-electron/releases) (lanzamientos) de este repositorio para encontrar la descarga para tu sistema operativo. Haz clic para descargar su versión. Una vez que esté lista en su directorio predeterminado, descomprima la carpeta y ejecute Git-it. Los ejecutables para Mac, Windows y Linux:
 
-![executables](https://cloud.githubusercontent.com/assets/1305617/14696588/2b10abf8-0731-11e6-945e-f3d57114bce9.png)
+![Ejecutables](https://cloud.githubusercontent.com/assets/1305617/14696588/2b10abf8-0731-11e6-945e-f3d57114bce9.png)
 
-- **Mac** Right (control) click the Git-it icon, select Open and then Open again. You can drag the icon into your Applications directory if you want, but it's not required. If needed, more [detailed installation instructions](https://github.com/jlord/git-it-electron/issues/121#issue-149747488) can be found in this issue.
-- **Windows** Double-click the executable.
-- **Linux** Double-click the executable. If the app isn't running, [see this issue](https://github.com/jlord/git-it-electron/issues/182).
+- **Mac:** Haz clic con el botón derecho (control) en el icono Git-it, selecciona Abrir y luego Abrir nuevamente. Puedes arrastrar el icono a su directorio de Aplicaciones si lo deseas, pero no es obligatorio. Si es necesario, se pueden encontrar más [instrucciones de instalación detalladas](https://github.com/jlord/git-it-electron/issues/121#issue-149747488) en esta Issue.
+- **Windows:** Haga doble clic en el ejecutable (.exe).
+- **Linux:** Haga doble clic en el ejecutable. Si la aplicación no se está ejecutando, [vea este problema](https://github.com/jlord/git-it-electron/issues/182).
 
-## Get Started!
+## ¡Empezamos!
 
-Open Git-it and click the button to begin the first challenge. Have your terminal and text editor open, too. Follow along with the instructions in each challenge and use the terminal or editor as instructed.
+Abre Git-it y haz clic en el botón para comenzar el primer desafío. También ten tu terminal y editor de texto abierto. Sigue las instrucciones en cada desafío y usa la terminal o el editor como se te indica.
 
-When you've completed the steps in a challenge click 'Verify'. Depending on the challenge you may need to also select the folder you did your work in for Git-it to verify.
+Cuando haya completado los pasos en un desafío, haz clic en 'Verificar'. Dependiendo del desafío, es posible que también debas seleccionar la carpeta en la que estas realizando tu trabajo para que Git-it la verifique.
 
-**Questions?** [Open an issue](http://github.com/jlord/git-it-electron/issues/new) on this repository.
+**¿Preguntas?** [Abre una issue](http://github.com/jlord/git-it-electron/issues/new) en este repositorio.
 
-**Want to contribute or build locally?** See the [contributing documentation](CONTRIBUTING.md)
+**¿Quieres contribuir o construir localmente?** Consulta la [documentación de contribución](CONTRIBUTING.md)
 
 ---
 
-### Tips For Getting Started
+### ¡Tips para empezar!
 
-**Code snippets** often times look like `$ some code-stuff --here`. The dollar sign identifies the line as one a user would enter into the command line, but you don't actually include it when you type it into terminal. In this case, you'd actually just type `some code-stuff --here`.
+**Fragmentos de codigo** muchas veces se ven como `$ algunas cosasde-codigo --aqui`. El signo de dólar identifica la línea como la que un usuario ingresaría en la línea de comandos, pero en realidad no la incluye cuando la escribe en la terminal. En este caso, simplemente escribirías como: `algunas cosasde-codigo --aqui`.
 
-**Variables** are indicated by `<VARIABLENAME>` in code snippets. When you actually use the line of code, replace `<VARIABLENAME>`, with your variable. For instance to make a new folder in terminal the format is, `mkdir <FOLDERNAME>`, so if you wanted to make a folder named 'octocat', you'd type: `mkdir octocat`.
+**Las variables** se indican con `<VARIABLENAME>` en los fragmentos de código. Cuando realmente uses la línea de código, reemplaza `<VARIABLENAME>`, con su variable. Por ejemplo, para crear una nueva carpeta en la terminal, el formato es `mkdir <FOLDERNAME>`, por lo que si deseas crear una carpeta llamada 'octocat', escribirías de esta manera: `mkdir octocat`.
 
-**Command line, terminal and bash** all basically mean the same thing: the MS-DOS, Doogie Howser looking screen full of words and numbers. It's awesomely powerful and allows you to control your computer with text commands.
+**Línea de comandos, Terminal y Bash** básicamente significan lo mismo: MS-DOS, Consola, una pantalla llena de palabras y números. Es increíblemente poderoso y te permite controlar tu computadora con comandos de texto.
 
-You can do a lot of things from your terminal like delete, rename, copy or create files and folders; run scripts and send things back and forth between servers (like the ones storing things on GitHub.com) and your computer (also a server!).
+Puedes hacer muchas cosas desde tu terminal como eliminar, renombrar, copiar o crear archivos y carpetas; ejecutar scripts y envíar cosas de un lado a otro entre servidores (como los que almacenan cosas en GitHub.com), y tu computadora (¡también un servidor!).
